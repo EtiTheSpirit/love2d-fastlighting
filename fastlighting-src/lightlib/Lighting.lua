@@ -126,7 +126,7 @@ local function activate()
 		--This means that somewhere we forgot to call deactivate and have called activate again
 		--There's no way that I have implemented at the moment to tell if this is a separate call.
 		--However, regardless, this should not be done and will cause extreme impacts if deactivate() is never called.
-		error("Error: Lighting.activate() was called before a deactivate call was made!", 0)
+		error("Error: Lighting.activate() was called a second time before a deactivate call was made!", 0)
 	end
 	SHADER_ACTIVE = true
 	love.graphics.setShader(reg_Shader)
