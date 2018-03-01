@@ -9,7 +9,7 @@ Performance for Fastlighting is a bit iffy in terms of being a crappy lighting s
 
 - Performance is outstanding with **1 to 10 lights** and **1 to 6 occlusion areas** (Est. 250-350 FPS)
 - Performance is decent with **11 to 15 lights** and **6 to 9 occlusion areas** (Est. 100-140 FPS)
-- Performance is average with **16 to 18 lights* and **10 to 12 occlusion areas** (Est. 60 FPS)
+- Performance is average with **16 to 18 lights** and **10 to 12 occlusion areas** (Est. 60 FPS)
 - Performance becomes poor with any more than that.
 
 Performance is also influenced by the radius of the light. Lights / occlusion areas with larger areas tend to cause more of a performance impact.
