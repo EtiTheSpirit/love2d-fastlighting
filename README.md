@@ -2,7 +2,7 @@
 A fast, shader-based lighting engine for LÖVE2D - http://love2d.org/
 
 # Functionality
-This lighting engine uses a quick, mostly-acceptable, and modular method of creating dynamic lighting within LOVE2D that has precision down to the pixel.
+This lighting engine uses a quick, mostly-acceptable, modular method of creating dynamic lighting within LOVE2D that has precision down to the pixel.
 
 # Performance
 Performance for Fastlighting is a bit iffy in terms of being a crappy lighting system vs. a top-of-the-line system. Personal tests conclude that:
